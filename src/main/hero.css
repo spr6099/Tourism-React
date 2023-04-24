@@ -1,32 +1,41 @@
-* {
-  box-sizing: border-box;
-}
-body {
-  margin: 0;
-  padding: 0;
-  max-width: 100%;
-}
 .hero {
-  /* background-color: brown; */
-  margin: 5px;
-  border-radius: 2px;
-  height: 350px;
-  overflow:hidden;
-  border:px solid black;
-
+    /* background-color: brown; */
+    padding: 0.5rem;
+    /* margin: 5px; */
+    border-radius: 0.25rem;
+    height: 350px;
+    /*overflow:hidden;
+  border:px solid black; */
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-h2 {
+
+.hero img {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+/* h2 {
   margin: 0;
   padding: 0;
   font-size: 20px;
   text-align: center;
  
+} */
+
+img:hover {
+    opacity: 0.9;
 }
 
-.hero img {
-   max-width: 100%;
-   
-}
-img:hover{
-    opacity: 0.9;
+.hero h1 {
+   position: absolute;
+  /* z-index: 100; */
+  backdrop-filter:;
 }
