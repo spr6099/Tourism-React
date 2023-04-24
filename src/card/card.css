@@ -9,7 +9,7 @@ body{
 .card{
     background-color: burlywood;
     width: 200px;
-    margin: 5px;
+    /* margin: 5px; */
    
 }
 .card img {

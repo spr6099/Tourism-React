@@ -4,7 +4,7 @@ import "./header.css"
 function Header() {
   return (
    
-      <header>
+      <header className="w-full pb-2">
         <h3 >logo</h3>
         <ul className="components">
           <li>Home</li>
