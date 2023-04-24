@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+.hero {
+  /* background-color: brown; */
+  margin: 5px;
+  border-radius: 2px;
+  height: 350px;
+  overflow:hidden;
+  border:px solid black;
+
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+ 
+}
+
+.hero img {
+   max-width: 100%;
+   
+}
+img:hover{
+    opacity: 0.9;
+}

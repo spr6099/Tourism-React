@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    background-color: burlywood;
+    width: 200px;
+    margin: 5px;
+   
+}
+.card img {
+    padding: 5px;
+    margin: 0;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.card h3 {
+    padding: 0px;
+    margin: 0px;
+}
+.card p{
+    margin: 0;
+    padding: 2px;
+}

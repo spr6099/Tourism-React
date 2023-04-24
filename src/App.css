@@ -1,0 +1,14 @@
+.card-container{
+    display: flex;
+    flex: 2;
+    display: 100%;
+}
+.container1{
+    background-color: aqua;
+    display: flex;
+    width: 70%;
+}
+.container2{
+background-color: blueviolet;
+width: 30%;
+}
